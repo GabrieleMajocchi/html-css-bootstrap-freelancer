@@ -35,3 +35,11 @@ div.star div{
 div.portfolio img{
     width: 100%;
 }
+
+div.about a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.6rem;
+    padding: 0.5rem 1rem;
+}
