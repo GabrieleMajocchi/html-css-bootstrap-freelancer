@@ -18,12 +18,6 @@
     border-top: solid #2c3e50;
 }
 
-nav li{
-    background-color: none;
-    list-style: none;
-    float: left;
-}
-
 main .start, main .about{
     background-color: #1abc9c;
 }
