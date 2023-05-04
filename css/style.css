@@ -40,9 +40,9 @@ div.portfolio img{
     width: 100%;
 }
 
-div.contact .row a{
+form div .btn{
     background-color: #1abc9c;
-    border: none;
+    border: none; 
 }
 
 footer .icons i{

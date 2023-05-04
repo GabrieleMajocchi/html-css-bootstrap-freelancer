@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- ----Link to bootstrap---- -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!-- ----Link to stylesheet---- -->
     <link rel="stylesheet" href="css/style.css">
@@ -53,7 +53,7 @@
                     <i class="fa-solid fa-star p-3" style="color: #2c3e50;"></i>
                     <div class="border-3 bo-lightblack"></div>
                 </div>
-                <div class="row d-flex">
+                <div class="row">
                     <div class="col-12 col-sm-6 col-lg-4 mb-4">
                         <img src="img/cabin.png" alt="" class="rounded-4">
                     </div>
@@ -84,7 +84,7 @@
                     <i class="fa-solid fa-star p-3" style="color: #ffffff;"></i>
                     <div class="border-top border-white border-3"></div>
                 </div>
-                <div class="row d-flex">
+                <div class="row">
                     <div class="col-12 col-sm-6 mb-4">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptates autem nostrum voluptatibus ratione non inventore? Quibusdam tenetur saepe in magnam voluptatibus voluptates fugiat impedit deleniti neque beatae, iste tempora.
                     </div>
@@ -106,30 +106,36 @@
                     <i class="fa-solid fa-star p-3" style="color: #2c3e50;"></i>
                     <div class="border-3 bo-lightblack"></div>
                 </div>
-                <div class="row d-flex text-start">
-                    <div class="col-12 border-bottom border-grey mb-3">
-                        <p class="lightblack">Name</p>
-                    </div>
-                    <div class="col-12 border-bottom border-grey mb-3">
-                        <p class="lightblack">Name</p>
-                    </div>
-                    <div class="col-12 border-bottom border-grey mb-3">
-                        <p class="lightblack">Name</p>
-                    </div>
-                    <div class="col-12 border-bottom border-grey pb-5 mb-3">
-                        <p class="lightblack">Name</p>
-                    </div>
+                <form class="row">
                     <div class="col-12">
-                        <a href="" class="btn btn-primary fw-bold">Send</a>
+                            <div class="form-floating">
+                                <input type="text" class="form-control border-0 border-bottom rounded-0" id="floatingName" placeholder="Your name">
+                                <label for="floatingName">Name</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="email" class="form-control border-0 border-bottom rounded-0" id="floatingEmail" placeholder="yourname@email.com">
+                                <label for="floatingEmail">Email Address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="number" class="form-control border-0 border-bottom rounded-0" id="inputPhoneNumber" placeholder="Your phone number">
+                                <label for="inputPhoneNumber">Phone Number</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control border-0 border-bottom rounded-0" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+                                <label for="floatingTextarea">Message</label>
+                            </div>
                     </div>
-                </div>
+                    <div class="col-12 text-start my-3">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
 
     <footer class="bg-darkblu">
         <div class="container upper py-5 p-sm-5 fw-semibold">
-            <div class="row flex text-center">
+            <div class="row text-center">
                 <div class="col-12 col-md-4 white mb-3 mb-md-0">
                     <p class="mb-1 d-md-none">LOCATION</p>
                     <p class="mb-1 d-none d-md-block fs-5">LOCATION</p>
